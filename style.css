@@ -1,0 +1,57 @@
+ 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: grey;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20240801/pngtree-falling-money-abstract-background-for-finance-and-success-image_16123416.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+  
+.container {
+    width: 100%;
+    max-width: 800px;
+    
+    background: whitesmoke;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: green;
+  }
+  
+.summary, .filters, form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: black;
+    background-color: wheat;
+     border-radius: 5px ;
+  }
+  
